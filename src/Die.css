@@ -1,0 +1,19 @@
+.Die {
+  font-size: 10em;
+  padding: 0.25em;
+  color: slateblue;
+}
+
+.shaking {
+  animation-name: infinite;
+  animation-duration: 2s;
+}
+
+@keyframes infinite {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
